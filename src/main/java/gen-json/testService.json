@@ -1,0 +1,11 @@
+{"name":"testService","doc":"This is a thrift service to test my ThriftShop extension\n","enums":[
+]
+,"typedefs":[
+]
+,"structs":[
+]
+,"constants":[
+]
+,"services":[
+{"name":"AwesomeService","doc":"This service is designed to excercise all feature of various calls.\n","functions":[{"name":"Ping","returnType":"void","doc":"Noop. Just to make sure we can call something\n","arguments":[],"exceptions":[]},{"name":"ReverseString","returnType":"string","doc":"Reverses a string\n","arguments":[{"index":"1","name":"s","type":"string"}],"exceptions":[]},{"name":"Add","returnType":"i32","doc":"Adds two numbers\n","arguments":[{"index":"1","name":"a","type":"i32"},{"index":"2","name":"b","type":"i32"}],"exceptions":[]},{"name":"AllPrimitives","returnType":"string","doc":"Accepts all primitives. Returns a string of some kind\n","arguments":[{"index":"1","name":"b","type":"bool"},{"index":"2","name":"by","type":"byte"},{"index":"3","name":"sh","type":"i16"},{"index":"4","name":"i","type":"i32"},{"index":"5","name":"lon","type":"i64"},{"index":"6","name":"dub","type":"double"},{"index":"7","name":"s","type":"string"}],"exceptions":[]}]}
+]}
